@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SneakersMRM - Reventa Premium</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Barra superior con contacto -->
+  <header class="bg-black text-white text-sm py-2 px-6 flex justify-between items-center">
+    <p>📞 6346677889</p>
+    <p>✉️ sneakersmrm@gmail.com</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white text-center py-20">
+    <h1 class="text-5xl font-extrabold mb-6 drop-shadow-lg">SneakersMRM</h1>
+    <p class="text-xl mb-8">Tu destino para sneakers y ropa premium de las mejores marcas</p>
+    <div class="flex justify-center space-x-4">
+      <a href="#sneakers" class="bg-white text-black px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-100">Sneakers</a>
+      <a href="#ropa" class="bg-black text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-800">Ropa</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1606813902913-923eb8bc8e91" alt="Sneakers" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2 opacity-40">
+  </section>
+
+  <!-- Sneakers Section -->
+  <section id="sneakers" class="py-16 px-6 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-12">Sneakers</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <!-- Ejemplo de marcas -->
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="Nike Air Jordan" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Nike Air Jordan</p>
+      </div>
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1600185365483-26d7a47b8e84" alt="Adidas" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Adidas</p>
+      </div>
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1606813902935-1d0b995e56d0" alt="Balenciaga" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Balenciaga</p>
+      </div>
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1606813902983-dcd7e644d5ec" alt="Louis Vuitton" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Louis Vuitton</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ropa Section -->
+  <section id="ropa" class="py-16 px-6 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-12">Ropa</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1624378439575-2c5f5cb918e4" alt="Alexander McQueen" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Alexander McQueen</p>
+      </div>
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1559333086-d6b1f2d4c6b8" alt="Under Armour" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Under Armour</p>
+      </div>
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1618354691263-9ff83f1d8d4d" alt="Asics" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Asics</p>
+      </div>
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1559333094-cf6f4c0c1e1c" alt="Dolce & Gabbana" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Dolce & Gabbana</p>
+      </div>
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1603252109303-2751441dd157" alt="Versace" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Versace</p>
+      </div>
+      <div class="shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1583744946564-b43f4bdeaf3d" alt="Calvin Klein" class="w-full h-48 object-cover">
+        <p class="text-center font-semibold py-2">Calvin Klein</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-6 mt-12">
+    <p class="mb-2">© 2025 SneakersMRM - Todos los derechos reservados</p>
+    <p>Contacto: 6346677889 | sneakersmrm@gmail.com</p>
+  </footer>
+</body>
+</html>
